@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This project contains simple todo application \r It has following features -\r - Anyone can create TODO\r - Anyone can see existing TODOs\r - Anyone can mark TODO as done",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "nodemon": "^3.1.0",
+    "zod": "^3.22.4"
+  }
+}
