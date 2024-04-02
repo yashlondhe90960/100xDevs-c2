@@ -59,4 +59,6 @@ app.put("/completed", async function(req, res) {
     })
 })
 
-app.listen(3000);
+// app.listen(3000);
+app.listen(5173);
+console.log("running on port 5173")
